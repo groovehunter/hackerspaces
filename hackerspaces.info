@@ -1,0 +1,35 @@
+name = hackerspace
+core = 7.x
+description = Tools for infrastructure for cellbases anarchic emergent global hackerspace
+
+
+; Core
+dependencies[] = book
+dependencies[] = block
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = path
+dependencies[] = taxonomy
+
+; Contrib
+dependencies[] = admin_menu
+;dependencies[] = admin_views
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = dhtml_menu
+dependencies[] = features
+dependencies[] = fe_profile
+dependencies[] = fe_block
+dependencies[] = module_filter
+dependencies[] = simplewiki
+dependencies[] = uuid
+dependencies[] = uuid_features
+dependencies[] = views
+dependencies[] = views_ui
+
+
+; own
